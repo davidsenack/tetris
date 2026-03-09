@@ -3,7 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Tetris</title>
+<title>blockdrop</title>
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500&display=swap" rel="stylesheet">
 <style>
@@ -190,6 +191,17 @@ canvas#board.blurred {
   color: var(--overlay-text);
 }
 #o-sub { display: none; }
+.brand {
+  position: fixed;
+  top: 16px;
+  left: 16px;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  color: var(--text-muted);
+  text-decoration: none;
+}
+.brand:hover { color: var(--text); }
 #theme-btn {
   position: fixed;
   top: 16px;
@@ -213,6 +225,7 @@ canvas#board.blurred {
 </style>
 </head>
 <body>
+<a class="brand" href="https://blockdrop.io">blockdrop.io</a>
 <button id="theme-btn" onclick="toggleTheme()">&#9790;</button>
 <div class="game-container">
   <div class="side-panel">

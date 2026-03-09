@@ -1,8 +1,8 @@
-# Tetris
+# blockdrop
 
-A clean, minimalist Tetris game built as a single HTML file. No dependencies, no build step.
+A clean, minimalist block-stacking game built as a single HTML file. No dependencies, no build step.
 
-**[Play it live](https://davidsenack.github.io/tetris/)**
+**[Play it live](https://blockdrop.io)** | [GitHub Pages](https://davidsenack.github.io/blockdrop/)
 
 ![screenshot](tetris_screenshot.png)
 
